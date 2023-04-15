@@ -56,6 +56,6 @@ Você pode ver todos os links disponíveis para o League Client através do [LCU
 
 
 ## To-do
-[] Observador de eventos da API
-[] Funções integradas para tarefas mais utilizadas (como um get_summoner_by_name())
-[] Documentação mais detalhada
+- [ ] Observador de eventos da API
+- [ ] Funções integradas para tarefas mais utilizadas (como um get_summoner_by_name())
+- [ ] Documentação mais detalhada
