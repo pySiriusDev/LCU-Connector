@@ -105,7 +105,7 @@ class RiotSSL:
         """Initialize an instance of the class with a Path object pointing to the './riotgames.pem' file
         and calls the private method '__update_path()'. This method is typically called when a new instance of the class is created.
         """
-        self.__file = Path('./riotgames.pem')
+        self.__file = Path('riotgames.pem')
         self.__update_path()
 
     def __update_path(self) -> None:

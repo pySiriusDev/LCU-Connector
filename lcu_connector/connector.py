@@ -96,7 +96,7 @@ class BaseConnector():
         self.__headers = headers
 
 
-class Connector(BaseConnector, Connection):
+class Connector(Connection, BaseConnector):
     """Represents a connector for a Riot Games client.
 
     Inherits from:
