@@ -50,6 +50,9 @@ data = {
 res = conn.post('API_URL', data=data)
 if res.status_code == 200:
     do_something()
+
+# Closing connection
+conn.close()
 ```
 
 Você pode ver todos os links disponíveis para o League Client através do [LCU Explorer](https://github.com/HextechDocs/lcu-explorer).
