@@ -7,7 +7,7 @@ with open('README.md') as file:
 
 setup(
     name='LCU Connector',
-    version='1.0.0',
+    version='1.0.1',
     author='Gabriel Viana',
     author_email='ssiriusbeck@gmail.com',
     description='Easy-to-use wrapper for the League Client API.',
