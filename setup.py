@@ -12,7 +12,7 @@ setup(
     author_email='ssiriusbeck@gmail.com',
     description='Easy-to-use wrapper for the League Client API.',
     long_description=readme,
-    long_description_type='text/markdown',
+    long_description_content_type='text/markdown',
     packages=['lcu_connector'],
     install_requires=['requests', 'psutil'],
     keywords=[
