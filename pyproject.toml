@@ -28,6 +28,7 @@ sphinx-sitemap = "^2.5.0"
 sphinx-autoapi = "^2.1.0"
 myst-parser = "^1.0.0"
 sphinx-autobuild = "^2021.3.14"
+twine = "^4.0.2"
 
 [tool.poetry.scripts]
 tests = "scripts:run_tests"
