@@ -27,5 +27,11 @@ setup(
         'lcu-connector',
         'lcu connector'
     ],
-    license='MIT'
+    license='MIT',
+    project_urls={
+        'Source': 'https://github.com/pySiriusDev/LCU-Connector',
+        'Download': 'https://github.com/pySiriusDev/LCU-Connector/releases',
+        'Instagram': 'https://instagram.com/biellviana',
+        'Twitter': 'https://twitter.com/_siriusbeck'
+    }
 )
