@@ -58,6 +58,9 @@ Now have fun, the `Connector` object has the same attributes as the `requests` l
 
     if res.status_code == 200:
         do_something()
+    
+    # Closing connection
+    conn.close()
 
 .. tip::
     You can see all available links for the League Client via https://github.com/HextechDocs/lcu-explorer.
