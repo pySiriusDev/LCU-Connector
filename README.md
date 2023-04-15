@@ -54,10 +54,10 @@ if res.status_code == 200:
 conn.stop()
 ```
 
-Você pode ver todos os links disponíveis para o League Client através do [LCU Explorer](https://github.com/HextechDocs/lcu-explorer).
+You can see all available links for League Client through [LCU Explorer](https://github.com/HextechDocs/lcu-explorer).
 
 
 ## To-do
-- [ ] Observador de eventos da API
-- [ ] Funções integradas para tarefas mais utilizadas (como um get_summoner_by_name())
-- [ ] Documentação mais detalhada
+- [ ] API event watcher
+- [ ] Built-in functions for commonly used tasks (like a get_summoner_by_name())
+- [ ] More detailed documentation
