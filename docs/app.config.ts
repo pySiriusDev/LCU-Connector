@@ -8,7 +8,7 @@ export default defineAppConfig({
       instagram: "biellviana",
     },
     header: {
-      logo: true,
+      logo: false,
       title: "LCU Connector",
       showLinkIcon: true,
       exclude: [],
