@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="lcu-connector",
-    version="1.0.1",
+    version="1.0.2",
     author="Gabriel Viana",
     author_email='ssiriusbeck@gmail.com',
     description="Easy-to-use wrapper for the League Client API.",
