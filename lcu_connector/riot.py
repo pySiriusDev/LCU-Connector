@@ -44,7 +44,7 @@ class Lockfile:
             self.protocol = data[4]
 
 
-class LeaguClient:
+class LeagueClient:
     """Class representing a League of Legends client.
 
     Attributes:
@@ -56,7 +56,7 @@ class LeaguClient:
     def __init__(self) -> None:
         """Initializes a new client object and validates the League client process and lockfile.
         """
-        self.__process_name = 'LeagueClient.exe' + ('.app' if not WINDOWS else '')
+        self.__process_name = 'LeagueClient' + ('.app' if not WINDOWS else '.exe')
         self.__process = self.__get_process()
         self.__lockfile = self.__get_lockfile()
 

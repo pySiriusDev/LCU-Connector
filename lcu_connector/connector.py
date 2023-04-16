@@ -2,7 +2,7 @@ from base64 import b64encode
 from typing import Dict, Optional
 
 from .connection import Connection
-from .riot import LeaguClient
+from .riot import LeagueClient
 
 
 class BaseConnector():
@@ -125,7 +125,7 @@ class Connector(Connection, BaseConnector):
     def __setup_attr(self) -> None:
         """Set up attributes for the `Connector` instance.
         """
-        client = LeaguClient()
+        client = LeagueClient()
         lockfile = client.lockfile
 
         self.pid = lockfile.pid
