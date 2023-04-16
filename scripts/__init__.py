@@ -20,4 +20,4 @@ def build_docs():
 
 
 def build():
-    os.system('python setup.py sdist')
+    os.system('python setup.py sdist bdist_wheel')

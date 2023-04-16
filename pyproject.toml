@@ -20,10 +20,13 @@ flake8 = "^6.0.0"
 isort = "^5.12.0"
 twine = "^4.0.2"
 markdown-refdocs = "^1.4.1"
+wheel = "^0.40.0"
+setuptools = "^67.6.1"
 
 [tool.poetry.scripts]
 tests = "scripts:run_tests"
 docs = "scripts:build_docs"
+build = "scripts:build"
 
 [build-system]
 requires = ["poetry-core"]
