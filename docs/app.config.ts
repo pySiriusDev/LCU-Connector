@@ -2,6 +2,7 @@ export default defineAppConfig({
   docus: {
     title: "LCU Connector",
     description: "Easy-to-use wrapper for the League Client API.",
+    url: "https://lcu-connector.vercel.app/",
     socials: {
       github: "pySiriusDev",
       twitter: "_siriusbeck",
