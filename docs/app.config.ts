@@ -8,7 +8,7 @@ export default defineAppConfig({
       instagram: "biellviana",
     },
     header: {
-      logo: false,
+      logo: true,
       title: "LCU Connector",
       showLinkIcon: true,
       exclude: [],
@@ -24,7 +24,7 @@ export default defineAppConfig({
     },
     footer: {
       credits: {
-        icon: "",
+        icon: "IconLcuC",
         text: "Developed by: Sirius Dev",
         href: "https://github.com/pySiriusDev",
       },
