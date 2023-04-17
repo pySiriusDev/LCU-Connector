@@ -40,4 +40,7 @@ export default defineAppConfig({
       iconCopied: "fluent:copy-24-filled",
     },
   },
+  colorMode: {
+    preference: 'dark'
+  },
 });
