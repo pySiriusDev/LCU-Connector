@@ -12,7 +12,6 @@ export default defineAppConfig({
       logo: true,
       title: "LCU Connector",
       showLinkIcon: true,
-      exclude: [],
       fluid: false,
     },
     main: {
