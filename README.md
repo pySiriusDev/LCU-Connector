@@ -1,7 +1,7 @@
 <div align="center">
   <h1>
     <img
-      src="https://raw.githubusercontent.com/pySiriusDev/lcu-connector/main/docs/public/icon.png"
+      src="https://raw.githubusercontent.com/pySiriusDev/lcu-connector/9198b8ca6a130c07cba23352c43260aaf4152d36/docs/public/icon.svg"
       width="80px"
     /><br />LCU Connector
   </h1>
